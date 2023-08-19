@@ -20,15 +20,16 @@
                 <div class="grid">
                     <section>
                         <h2 id="resolution"> </h2>
-                        <noscript>  <h2> Javascript is Disabled, Unable to Detect Resolution. </h2> </noscript>
+                        <noscript>  <h2 style="color:rgb(53, 202, 24);"> Javascript is Disabled, Unable to Detect Resolution. </h2> </noscript>
                     </section>
                     <section>
                         <h2 id="bowser_browser"> </h2>
-                        <noscript> <h2> Javascript is Disabled, Unable to Detect Browser </h2> </noscript>
+                        <noscript> <h2 style="color:rgb(53, 202, 24);"> Javascript is Disabled, Unable to Detect Browser </h2> </noscript>
                     </section>
                     <section>
-                        <?php $remote = isset($_SERVER["REMOTE_ADDR"]) ? $_SERVER["REMOTE_ADDR"] : 'localhost'; ?>
                         <h2 id="ip">  </h2> 
+                        <h2 id="ipfail" style="color:rgb(53, 202, 24);">  </h2>
+                        <noscript> <h2 style="color:rgb(53, 202, 24);"> Javascript is Disabled, Unable to Detect IP Address </h2> </noscript>
                     </section>
                 </div>
                 <h1 class="grid"> What does this mean? </h1>
